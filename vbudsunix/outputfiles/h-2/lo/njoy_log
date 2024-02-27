@@ -1,0 +1,41 @@
+NJOY h-2
+getting endf file for h-2
+running njoy
+
+ njoy 99.0                                                   07/03/02 17:18:03
+ *****************************************************************************
+
+ moder...                                                                 0.0s
+
+ reconr...                                                                0.0s
+
+ broadr...                                                                0.1s
+      300.0 deg                                                           0.1s
+      600.0 deg                                                           0.2s
+      900.0 deg                                                           0.4s
+     1200.0 deg                                                           0.5s
+     1500.0 deg                                                           0.7s
+
+ unresr...                                                                1.0s
+
+ ---message from unresr---mat  128 has no resonance parameters
+                          copy as is to nout
+
+ thermr...                                                                1.0s
+
+ wrote thermal data for temp= 3.000E+02                                  42.7s
+
+ wrote thermal data for temp= 6.000E+02                                  80.1s
+
+ wrote thermal data for temp= 9.000E+02                                 115.0s
+
+ wrote thermal data for temp= 1.200E+03                                 148.2s
+
+ wrote thermal data for temp= 1.500E+03                                 179.6s
+
+ groupr...                                                              179.6s
+
+ moder...                                                               229.9s
+                                                                        232.0s
+ *****************************************************************************
+saving output and pendf files

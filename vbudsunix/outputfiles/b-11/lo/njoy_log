@@ -1,0 +1,41 @@
+NJOY b-11
+getting endf file for b-11
+running njoy
+
+ njoy 99.0                                                   07/03/02 13:27:59
+ *****************************************************************************
+
+ moder...                                                                 0.0s
+
+ reconr...                                                                0.7s
+
+ broadr...                                                                1.3s
+      300.0 deg                                                           1.5s
+      600.0 deg                                                           1.9s
+      900.0 deg                                                           2.5s
+     1200.0 deg                                                           3.0s
+     1500.0 deg                                                           3.6s
+
+ unresr...                                                                4.3s
+
+ ---message from unresr---mat  528 has no resonance parameters
+                          copy as is to nout
+
+ thermr...                                                                4.9s
+
+ wrote thermal data for temp= 3.000E+02                                  46.1s
+
+ wrote thermal data for temp= 6.000E+02                                  82.8s
+
+ wrote thermal data for temp= 9.000E+02                                 116.2s
+
+ wrote thermal data for temp= 1.200E+03                                 147.6s
+
+ wrote thermal data for temp= 1.500E+03                                 178.1s
+
+ groupr...                                                              178.1s
+
+ moder...                                                               184.6s
+                                                                        186.9s
+ *****************************************************************************
+saving output and pendf files

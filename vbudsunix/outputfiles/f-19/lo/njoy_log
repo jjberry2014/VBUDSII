@@ -1,0 +1,41 @@
+NJOY f-19
+getting endf file for f-19
+running njoy
+
+ njoy 99.0                                                   07/03/02 16:00:24
+ *****************************************************************************
+
+ moder...                                                                 0.0s
+
+ reconr...                                                                0.9s
+
+ broadr...                                                                1.2s
+      300.0 deg                                                           1.3s
+      600.0 deg                                                           1.4s
+      900.0 deg                                                           1.6s
+     1200.0 deg                                                           1.7s
+     1500.0 deg                                                           1.9s
+
+ unresr...                                                                2.1s
+
+ ---message from unresr---mat  925 has no resonance parameters
+                          copy as is to nout
+
+ thermr...                                                                2.3s
+
+ wrote thermal data for temp= 3.000E+02                                  42.6s
+
+ wrote thermal data for temp= 6.000E+02                                  79.1s
+
+ wrote thermal data for temp= 9.000E+02                                 113.3s
+
+ wrote thermal data for temp= 1.200E+03                                 145.8s
+
+ wrote thermal data for temp= 1.500E+03                                 177.4s
+
+ groupr...                                                              177.5s
+
+ moder...                                                               183.9s
+                                                                        186.1s
+ *****************************************************************************
+saving output and pendf files

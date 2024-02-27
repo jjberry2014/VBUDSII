@@ -1,0 +1,64 @@
+%%% Actinide_Region: 1 = central, 2 = annular.  
+Annular not yet supported in GUI version.
+%%% Unit_Cell_Geometry: 1 = cylindrical, 2 = rectangular, 3 = spherical. 
+only 1 = cylindrical is active in this version.  2 & 3 are supported in the C code,
+but they are not well tested yet and are not implemented in the graphical version.
+%%% Fuel_Form: 1 = oxide, 2 = carbide, 3 = oxycarbide, 4 = nitride, 5 = metallic unbound
+%%% Shim_Region: 0 = none, 1 = central, 2 = annular.
+Shim material is elemental boron.
+%%% Shim_Concentration [ppm]
+%%% Control_Absorber: 1 = none,  2 = B4C, 3 = AgInCd, 4 = Gd2O3
+The graphical version doesn't yet burn poisons or adjust control absorber concentrations
+during a burnup cycle.  This feature will be added soon.
+%%% Fuel_Density   [g/cc]
+%%% Fuel_VolFract  [%]
+Usage: fuel at density 10 g/cc and 50% volfract is equivalent to fuel at density 
+5 g/cc and 100% volfract.  Material is spread homogenously throughout the volume.
+Volume fractions in each region do not have to sum to 100%.
+%%% Cent_Region_Mat: 1 = none, 2 = H2O, 3 = D2O, 4 = graphite, 5 = He, 6 = CO2,
+7 = Pb, 8 = Bi, 9 = Zr, 10 = ZrO2, 11 = ZrH
+%%% Cent_Region_Dens [g/cc]
+%%% Cent_Region_VF   [%]
+Repeat 4 times for Cent_Region and 4 times for Annular_Region.
+Same rules for density and volume fraction as above apply.
+The ZrH thermal scattering kernel is broken at the moment, need to re-run NJOY.
+Several more materials will be added soon.
+%%% Specify_Actinides: 1 = relative mass [-], 2 = number density [a/b-cm]
+if (1), V:BUDS will compute actinide number densities based upon the Fuel_Density
+and Fuel_VolFract specified earlier.  Relative mass fractions don't have to be 
+normalized to anything in particular.
+if (2), the user-specified values for actinide number densities will be used by V:BUDS.
+This OVERRIDES the actinide number density specified by Fuel_Density and Fuel_VolFract.
+Fuel_Density and Fuel_VolFract will only be used to calculate the number density of 
+nonactinide components of the fuel compound, e.g., oxygen in (Actinide)O2 fuel.
+%%% Th-230 through Cm-246: actinide number densities / mass fractions
+%%% Clad_Material: 1 = void, 2 = Zr
+Nb should be added soon.
+%%% Clad_Density [g/cc]
+%%% Structural_Material: 1 = void, 2 = Fe
+%%% Structural_Density [g/cc]
+%%% Structural_VolFract [% of active core]
+Structural material is uniformly admixed in all regions; acts as a poison.
+%%% CentReg_Temp  [K]
+%%% AnnularReg_Temp [K]
+must lie between 300 - 1500 K. (300 - 1000 K for compounds with a S(a,b) thermal
+scattering kernel, e.g. H2O, D2O, ZrH, graphite).
+%%% Core_Radius [cm]
+%%% Core_Height [cm] 
+Used for leakage calculations.
+%%% CentReg_Radius     [cm]
+%%% Clad_Thickness     [cm]
+%%% Cell_Pitch         [cm]
+%%%%%%%%%%%% PLOT / BURNUP GUI OPTIONS %%%%%%%%%%%%%
+%%% Plot_TimeDependent:    1 = static, 2 = time dependent / burnup calculation
+%%% Plot_Cutoff            [%]
+%%% Plot_Burnup            [MWd/kg]
+Discharge burnup.  Burnup rate / local power density is assumed constant, so
+the burnup per cycle is Plot_Burnup/Plot_NCycles [MWd/kg].
+%%% Plot_CycleEFPD         [d]
+Reactor uptime per cycle.
+%%% Plot_NCycles           
+Number of cycles the fuel spends in the reactor before being discharged.
+%%% Plot_LoadFactor         90.
+Percentage of time during which the reactor is up and fuel is being irradiated.
+Downtime is treated as a block of time at the end of each cycle, to simulate refueling.

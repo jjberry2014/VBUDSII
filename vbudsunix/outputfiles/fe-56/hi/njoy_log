@@ -1,0 +1,45 @@
+NJOY fe-56
+getting endf file for fe-56
+running njoy
+
+ njoy 99.0                                                   07/03/02 16:10:35
+ *****************************************************************************
+
+ moder...                                                                 0.0s
+
+ reconr...                                                                3.0s
+
+ ---message from rdf2bw---calculation of angular distribution not installed.
+
+ ---message from emerge---nonpositive elastic cross sections found.
+
+ broadr...                                                                8.7s
+      300.0 deg                                                           9.0s
+      600.0 deg                                                          10.5s
+      900.0 deg                                                          12.1s
+     1200.0 deg                                                          13.9s
+     1500.0 deg                                                          15.6s
+
+ unresr...                                                               17.3s
+
+ ---message from unresr---mat 2631 has no unresolved parameters
+                          copy as is to nout
+
+ thermr...                                                               18.7s
+
+ wrote thermal data for temp= 3.000E+02                                  56.6s
+
+ wrote thermal data for temp= 6.000E+02                                  91.6s
+
+ wrote thermal data for temp= 9.000E+02                                 125.5s
+
+ wrote thermal data for temp= 1.200E+03                                 159.1s
+
+ wrote thermal data for temp= 1.500E+03                                 191.7s
+
+ groupr...                                                              191.7s
+
+ moder...                                                               227.8s
+                                                                        233.4s
+ *****************************************************************************
+saving output and pendf files

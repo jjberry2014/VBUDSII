@@ -1,0 +1,41 @@
+NJOY be-9
+getting endf file for be-9
+running njoy
+
+ njoy 99.0                                                   07/03/02 13:47:04
+ *****************************************************************************
+
+ moder...                                                                 0.0s
+
+ reconr...                                                                1.1s
+
+ broadr...                                                                1.2s
+      300.0 deg                                                           1.2s
+      600.0 deg                                                           1.4s
+      900.0 deg                                                           1.5s
+     1200.0 deg                                                           1.7s
+     1500.0 deg                                                           1.9s
+
+ unresr...                                                                2.1s
+
+ ---message from unresr---mat  425 has no resonance parameters
+                          copy as is to nout
+
+ thermr...                                                                2.1s
+
+ wrote thermal data for temp= 3.000E+02                                  44.2s
+
+ wrote thermal data for temp= 6.000E+02                                  81.5s
+
+ wrote thermal data for temp= 9.000E+02                                 115.3s
+
+ wrote thermal data for temp= 1.200E+03                                 147.1s
+
+ wrote thermal data for temp= 1.500E+03                                 177.2s
+
+ groupr...                                                              177.2s
+
+ moder...                                                               275.9s
+                                                                        276.6s
+ *****************************************************************************
+saving output and pendf files

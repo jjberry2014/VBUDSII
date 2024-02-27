@@ -1,0 +1,59 @@
+NJOY zr-0
+getting endf file for zr-0
+running njoy
+
+ njoy 99.0                                                   07/15/02 17:21:49
+ *****************************************************************************
+
+ moder...                                                                 0.0s
+
+ reconr...                                                                0.5s
+
+ broadr...                                                                8.2s
+      300.0 deg                                                           8.5s
+      600.0 deg                                                          10.2s
+      900.0 deg                                                          12.1s
+     1200.0 deg                                                          14.0s
+     1500.0 deg                                                          16.0s
+
+ unresr...                                                               18.1s
+
+ ---message from rdunf2---resolved-unresolved overlap energies
+                          marked with minus signs.
+
+ thermr...                                                               20.6s
+
+ wrote thermal data for temp= 3.000E+02                                  57.0s
+
+ wrote thermal data for temp= 6.000E+02                                  91.2s
+
+ wrote thermal data for temp= 9.000E+02                                 124.0s
+
+ wrote thermal data for temp= 1.200E+03                                 155.9s
+
+ wrote thermal data for temp= 1.500E+03                                 188.3s
+
+ groupr...                                                              188.3s
+
+ ---message from conver---cannot do complete particle production for mt= 16
+                          only mf4/mf5 provided
+
+ ---message from conver---cannot do complete particle production for mt= 17
+                          only mf4/mf5 provided
+
+ ---message from conver---cannot do complete particle production for mt= 22
+                          only mf4/mf5 provided
+
+ ---message from conver---cannot do complete particle production for mt= 28
+                          only mf4/mf5 provided
+
+ ---message from conver---cannot do complete particle production for mt= 32
+                          only mf4/mf5 provided
+
+ ---message from conver---cannot do complete particle production for mt= 91
+                          only mf4/mf5 provided
+
+ moder...                                                               206.5s
+                                                                        208.6s
+ *****************************************************************************
+saving output and pendf files

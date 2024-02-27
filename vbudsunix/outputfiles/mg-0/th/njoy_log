@@ -1,0 +1,49 @@
+
+njoy 99.0                                                   12/12/05 12:50:46
+*****************************************************************************
+
+moder...                                                                 0.0s
+
+reconr...                                                                0.1s
+
+broadr...                                                                0.4s
+     300.0 deg                                                           0.4s
+     600.0 deg                                                           0.5s
+     900.0 deg                                                           0.5s
+    1200.0 deg                                                           0.6s
+    1500.0 deg                                                           0.6s
+
+unresr...                                                                0.7s
+
+---message from unresr---mat 1200 has no resonance parameters
+                         copy as is to nout
+
+thermr...                                                                0.7s
+
+wrote thermal data for temp= 3.000E+02                                  11.0s
+
+wrote thermal data for temp= 6.000E+02                                  20.3s
+
+wrote thermal data for temp= 9.000E+02                                  29.1s
+
+wrote thermal data for temp= 1.200E+03                                  37.5s
+
+wrote thermal data for temp= 1.500E+03                                  45.6s
+
+groupr...                                                               45.6s
+
+---message from conver---cannot do complete particle production for mt= 16
+                         only mf4/mf5 provided
+
+---message from conver---cannot do complete particle production for mt= 22
+                         only mf4/mf5 provided
+
+---message from conver---cannot do complete particle production for mt= 28
+                         only mf4/mf5 provided
+
+---message from conver---cannot do complete particle production for mt= 91
+                         only mf4/mf5 provided
+
+moder...                                                                72.3s
+                                                                        72.4s
+*****************************************************************************

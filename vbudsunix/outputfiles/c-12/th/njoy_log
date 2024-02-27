@@ -1,0 +1,44 @@
+NJOY c-12
+getting endf file for c-12
+running njoy
+
+ njoy 99.0                                                   07/03/02 14:16:32
+ *****************************************************************************
+
+ moder...                                                                 0.0s
+
+ reconr...                                                                0.2s
+
+ broadr...                                                                0.5s
+      300.0 deg                                                           0.6s
+      600.0 deg                                                           0.7s
+      900.0 deg                                                           0.9s
+     1200.0 deg                                                           1.0s
+     1500.0 deg                                                           1.2s
+
+ unresr...                                                                1.4s
+
+ ---message from unresr---mat  625 has no resonance parameters
+                          copy as is to nout
+
+ thermr...                                                                1.6s
+
+ wrote thermal data for temp= 3.000E+02                                  43.1s
+
+ wrote thermal data for temp= 6.000E+02                                  79.1s
+
+ wrote thermal data for temp= 9.000E+02                                 112.2s
+
+ wrote thermal data for temp= 1.200E+03                                 143.2s
+
+ wrote thermal data for temp= 1.500E+03                                 173.4s
+
+ groupr...                                                              173.4s
+
+ ---message from conver---cannot do complete particle production for mt= 91
+                          only mf4/mf5 provided
+
+ moder...                                                               259.5s
+                                                                        260.3s
+ *****************************************************************************
+saving output and pendf files

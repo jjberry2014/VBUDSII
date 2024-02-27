@@ -1,0 +1,43 @@
+
+njoy 99.0                                                   12/12/05 12:13:02
+*****************************************************************************
+
+moder...                                                                 0.0s
+
+reconr...                                                                0.0s
+
+broadr...                                                                0.2s
+     300.0 deg                                                           0.2s
+     600.0 deg                                                           0.5s
+     900.0 deg                                                           0.7s
+    1200.0 deg                                                           1.0s
+    1500.0 deg                                                           1.2s
+
+unresr...                                                                1.5s
+
+thermr...                                                                3.1s
+
+wrote thermal data for temp= 3.000E+02                                  13.0s
+
+wrote thermal data for temp= 6.000E+02                                  22.4s
+
+wrote thermal data for temp= 9.000E+02                                  31.6s
+
+wrote thermal data for temp= 1.200E+03                                  40.5s
+
+wrote thermal data for temp= 1.500E+03                                  49.4s
+
+groupr...                                                               49.4s
+
+---message from conver---cannot do complete particle production for mt= 16
+                         only mf4/mf5 provided
+
+---message from conver---cannot do complete particle production for mt= 17
+                         only mf4/mf5 provided
+
+---message from conver---cannot do complete particle production for mt= 91
+                         only mf4/mf5 provided
+
+moder...                                                                76.4s
+                                                                        76.6s
+*****************************************************************************
